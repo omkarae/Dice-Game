@@ -1,3 +1,4 @@
+// Function Definition
 function refresh() {
   var randomNumber1 = Math.floor(Math.random() * 6) + 1;
   var randomNumber2 = Math.floor(Math.random() * 6) + 1;
@@ -15,3 +16,5 @@ function refresh() {
     document.querySelector("h1").innerHTML = "It's a draw";
   }
 }
+// Event listener calling function
+document.querySelector("button").addEventListener("click",refresh);
