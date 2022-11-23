@@ -4,3 +4,5 @@
 - CSS
 - Bootstrap
 - Javascript
+
+[Click here to play](https://omkarae.github.io/Dice-Game/)
